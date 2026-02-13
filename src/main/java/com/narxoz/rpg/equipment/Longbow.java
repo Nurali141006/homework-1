@@ -1,16 +1,15 @@
 package com.narxoz.rpg.equipment;
 
-public class IronSword implements Weapon {
-
-    private int damage = 35;
-    private String weaponType = "Sword";
+public class Longbow implements Weapon {
+    private int damage = 30;
+    private String weaponType = "Bow";
 
     @Override
     public int getDamage() { return damage; }
 
     @Override
     public String getWeaponInfo() {
-        return "Iron Sword (Medieval) - A sturdy blade forged from iron";
+        return "Longbow (Ranger) - High range attack";
     }
 
     @Override
